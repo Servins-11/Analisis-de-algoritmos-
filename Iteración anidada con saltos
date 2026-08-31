@@ -1,0 +1,14 @@
+def ciclos_anidados(n):
+    contador = 0
+
+    for i in range(n):
+        j = 1
+
+        while j < n:
+            contador += 1
+            j = j * 2
+
+    return contador
+
+
+print(ciclos_anidados(8))
