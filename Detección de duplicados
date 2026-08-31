@@ -1,0 +1,13 @@
+def hay_duplicados(lista):
+    n = len(lista)
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if lista[i] == lista[j]:
+                return True
+
+    return False
+
+
+print(hay_duplicados([1, 2, 3, 4, 5]))
+print(hay_duplicados([1, 2, 3, 2, 5]))
