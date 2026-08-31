@@ -1,0 +1,7 @@
+def ultimo_elemento(lista):
+    if len(lista) == 0:
+        return None
+    return lista[-1]
+
+
+print(ultimo_elemento([10, 20, 30, 40, 50]))
