@@ -1,0 +1,15 @@
+def procesar_listas(lista_n, lista_m):
+    suma = 0
+
+    for elemento in lista_n:
+        suma += elemento
+
+    producto = 1
+
+    for elemento in lista_m:
+        producto *= elemento
+
+    return suma, producto
+
+
+print(procesar_listas([1, 2, 3, 4], [2, 3, 4]))
