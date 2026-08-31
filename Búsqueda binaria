@@ -1,0 +1,19 @@
+def busqueda_binaria(lista, objetivo):
+    inicio = 0
+    fin = len(lista) - 1
+
+    while inicio <= fin:
+        medio = (inicio + fin) // 2
+
+        if lista[medio] == objetivo:
+            return medio
+        elif lista[medio] < objetivo:
+            inicio = medio + 1
+        else:
+            fin = medio - 1
+
+    return -1
+
+
+print(busqueda_binaria([10, 20, 30, 40, 50, 60, 70], 50))
+print(busqueda_binaria([10, 20, 30, 40, 50, 60, 70], 100))
