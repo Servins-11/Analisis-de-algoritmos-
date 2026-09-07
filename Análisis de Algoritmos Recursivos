@@ -1,0 +1,99 @@
+ejercicio 1 = T(n)=2T(n/2)+O(n)
+
+a= 2
+
+b=2
+
+d=1
+
+n logba
+
+n= log 2-2 = 1 
+
+n1 = n
+
+resultado = tNo = O(n log n )
+
+ejercicio 2 = T(n)=4T(n/2)+O(n)
+
+a = 4 
+
+b = 2 
+
+d = 1 
+
+log2-4 = 2 
+
+n2 = n2 
+
+resultado = tNo = O(n2)
+
+ejercicio 3 =T(n)=2T(n/2)+O(n2)
+
+a = 2
+
+b = 2 
+
+d = 2 
+
+n = log 2-2 = 1 
+
+n1 = n2
+
+resultado = tNo = O(n2)
+
+ejercicio 4 =T(n)=T(n−1)+O(n)
+
+tNo = t(n-1) + n 
+
+tNo = t(n - 2) +n asi sucecivamente 
+
+tNo = n(n-1)/2
+
+tNo = n2 - n / 2
+
+tNo = n2 ya que es el mayor 
+
+resultado= tNo = O(n2)
+
+ejercicio 5 = T(n)=T(n/3)+T(2n/3)+O(n)
+
+n/3 + 2n/3 + n = n 
+
+resultado = tNo = O(n log n )
+
+ejercicio 6 T(n)=3T(n/4)+O(n2) 
+
+a = 3 
+
+b = 4 
+
+d = 2 
+
+ n = log4-3 = 
+
+log(4) = 0.6020 
+
+log(3) = 0.4771
+
+               0.792 
+
+n-0.792 es menor que n2 
+
+resultado = tNo =O(n2)
+
+investigacion: 
+
+Merge Sort – Algoritmo Divide y Vencerás
+
+El algoritmo que elegí es Merge Sort, que sirve para ordenar una lista de números.
+
+Este algoritmo utiliza el método Divide y Vencerás porque primero divide el problema en partes más pequeñas, después resuelve esas partes y finalmente combina los resultados.
+
+Por ejemplo, si tenemos la lista 8, 3, 5, 1, 4 y 2, primero la dividimos en dos partes: 8, 3, 5 y 1, 4, 2.
+
+Después seguimos dividiendo las partes hasta llegar a elementos individuales.
+
+Cuando ya tenemos los elementos separados, comenzamos a unirlos comparando los números y colocándolos en orden.
+
+Al final obtenemos la lista ordenada: 1, 2, 3, 4, 5 y 8.
